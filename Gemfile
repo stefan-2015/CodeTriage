@@ -126,7 +126,7 @@ group :test do
   gem "test-prof"
   gem "vcr"
   gem "webmock"
-  gem "fast_ci"
+  gem 'fast_ci', '>= 1.0.11'
 end
 
 group :development, :test do
